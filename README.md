@@ -16,6 +16,6 @@ This project was made following: https://medium.com/@JedaiSaboteur/creating-a-re
 
 ## Scripts
 
-`npm run start`: webpack will bundle all our react components and css into a single bundle.js file. Webpack uses Babel to transpile the es6 and jsx into common JS that can be understood by all browsers. Webpack stores the bundle.js file in dist/bundle.js in memory, but doesn't actually print it into dist/bundle.js. To output for production, use the below command. Webpack's dev server uses hot reloading and the app can be viewed at localhost:3000.
+`npm run start`: webpack starts up a dev server and will bundle all our react components and css into a single bundle.js file. Webpack uses Babel to transpile the es6 and jsx into common JS that can be understood by all browsers. Webpack stores the bundle.js file in dist/bundle.js in memory, but doesn't actually print it into dist/bundle.js. To output for production, use the below command. Webpack's dev server uses hot reloading and the app can be viewed at localhost:3000.
 
-`npm run build`: Does the same as above but webpack will create a production-ready bundle.js file and create the file in dist/bundle.js.
+`npm run build`: webpack will create a production-ready bundle.js file and create the file in dist/bundle.js. If you want to output a development build, use the following command: npx webpack --mode=development.
