@@ -29,8 +29,6 @@ module.exports = {
     },
     compress: true,
     port: 3000,
-  },
-  devServer: {
     hot: true,
   },
 };
